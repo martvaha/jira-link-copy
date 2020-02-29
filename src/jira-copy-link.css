@@ -1,0 +1,12 @@
+.jira-copy-link__icon {
+  cursor: pointer;
+  display: none;
+}
+
+.jira-copy-link__icon:before {
+  display: none;
+}
+
+.ghx-issue-content:hover .jira-copy-link__icon:before {
+  display: inline-block;
+}
